@@ -25,7 +25,7 @@ router.get('/:id_produto',(req, res, next) =>{
 //DELETA UM PEDIDO
 router.delete('/', (req, res, next) =>{
     res.status(200).send({
-        menssegem: "Deletar o pedido"
+        menssegem: "Deletar o pedidos"
     })
 })
 
